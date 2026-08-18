@@ -224,16 +224,15 @@ summary:focus-visible {
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
-
 .hero-heading h1 {
   width: 100%;
   max-width: none;
   margin: 1rem 0 0;
   font-family: var(--font-display);
-  font-size: clamp(1.9rem, 2.35vw, 1.3rem);
+  font-size: clamp(2.2rem, 4.5vw, 4.5rem);
   font-weight: 500;
   letter-spacing: -0.035em;
-  line-height: 2.3;
+  line-height: 1.05;
   white-space: nowrap;
 }
 
@@ -1198,8 +1197,10 @@ section.more {
 
   .hero-heading h1 {
     white-space: normal;
-    font-size: clamp(2.6rem, 9vw, 4.5rem);
+    font-size: clamp(2.2rem, 7vw, 3.5rem);
+    line-height: 1.08;
   }
+
 
   .hero-card {
     max-width: 520px;
@@ -1270,8 +1271,10 @@ section.more {
   }
 
   .hero h1 {
-    font-size: clamp(3.6rem, 18vw, 5.7rem);
-  }
+  font-size: clamp(2rem, 9vw, 2.8rem);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+}
 
   .hero-actions {
     flex-direction: column;
