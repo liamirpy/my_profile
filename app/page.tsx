@@ -244,6 +244,18 @@ export default function Home() {
             >
               GitHub <span aria-hidden="true">↗</span>
             </a>
+
+            <a
+              className="nav-social"
+              href="https://scholar.google.com/citations?user=Rewu8sQAAAAJ&hl=en"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Open Amir Mousavi's Google Scholar profile"
+            >
+              Scholar <span aria-hidden="true">↗</span>
+            </a>
+
+
           </nav>
         <a className="header-cta" href="#contact">Let&apos;s talk <ArrowIcon /></a>
       </header>
